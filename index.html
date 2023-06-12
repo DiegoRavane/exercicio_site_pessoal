@@ -5,9 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Utilidades Públicas</h1>
-    
+    <header>
+        <div class="container">
+            <h1>Utilidades Públicas e Dicas Para o Dia a Dia</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about">Sobre o site</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store-front" src="./dicas.jpeg" alt="Papel escrito 'dicas úteis'" />
+            <div>
+                <h2>Sobre o site</h2>
+                <p>
+                    Esse site foi criado com o intuito de levar conhecimento útil para o dia a dia, que todo cidadão deveria saber sobre diversos assuntos e com a possibilidade de que o usuário possa sugerir novos temas ou agregar conhecimento a temas já existentes, através da seção “Fale Conosco”.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <a href="telefones.html">Telefones Úteis</a>
+                </div>
+                <div>
+                    <a href="leis-úteis.html">Leis Úteis Para o Dia a Dia</a>
+                </div>
+                <div>
+                    <a href="comprar-pela-internet.html">Como Comprar Pela Internet</a>
+                </div>
+                <div>
+                    <a href="dicas-rápidas.html">Dicas Rápidas e Aleatórias</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Utilidades Públicas e Dicas Para o Dia a Dia - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
